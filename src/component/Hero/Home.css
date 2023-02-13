@@ -34,7 +34,7 @@
 }
 
 .hero_btn {
-  margin-top: 20%;
+  margin-top: 12%;
 }
 
 .hero_btn h4 {
@@ -79,7 +79,7 @@
 .hero .right_img img {
   position: absolute;
   top: 0;
-  right: 10%;
+  /* right: 10%; */
   width: 510px;
 }
 

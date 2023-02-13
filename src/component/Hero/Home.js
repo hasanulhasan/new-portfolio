@@ -1,9 +1,9 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
+import hero from "../pic/herono1.png"
+import skill1 from "../pic/js.png"
+import skill2 from "../pic/react.png"
+import skill3 from "../pic/node-js.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -14,30 +14,30 @@ const Home = () => {
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Jone Lee</span>
+              Hi, I’m <span>Md Hasanul Karim</span>
             </h1>
             <h2>
               a
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" MERN Stack Developer.", " React Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p>I'm Hasanul Karim, a simple cheerful man who is passionate about learning and developing skills through hands-on experience. Experienced in web development ecosystems. Clean code can be produced using HTML5, CSS, JavaScript, React JS, Node JS, Redux, React Native and other programming frameworks. I can work both independently and in groups. I'm looking for a position where I can put my expertise in programming frameworks and development to use.</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
-                  <button className='btn_shadow'>
+                  <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank"><button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
-                  </button>
-                  <button className='btn_shadow'>
+                  </button></a>
+                  <a href="https://github.com/hasanulhasan" target="_blank"><button className='btn_shadow'>
+                    <i class='fab fa-github'></i>
+                  </button></a>
+                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank"><button className='btn_shadow'>
                     <i class='fab fa-linkedin-in'></i>
-                  </button>
+                  </button></a>
                 </div>
               </div>
               <div className='col_1'>

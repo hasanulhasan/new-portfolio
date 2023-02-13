@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo.png"
+import logo from "../pic/me.jpg"
 
 const Header = () => {
   // fixed Header
@@ -43,7 +43,7 @@ const Header = () => {
                 <a href='#contact'>contact</a>
               </li>
               <li>
-                <button className='home-btn'>BUY NOW</button>
+                <button className='home-btn'>Resume</button>
               </li>
             </ul>
 
