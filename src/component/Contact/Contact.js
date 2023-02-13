@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import contact1 from "./contact1.png"
+import contact1 from "./contact.gif"
 import "./Contact.css"
 
 const Contact = () => {
@@ -8,7 +8,8 @@ const Contact = () => {
     phone: "",
     email: "",
     subject: "",
-    message: "",})
+    message: "",
+  })
 
   const InputEvent = (event) => {
     const { name, value } = event.target
@@ -48,22 +49,24 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <h1>Md Hasanul Karim</h1>
+                  <p>MERN Stack Developer</p>
+                  <p>I am available for freelance work. Connect with me via and call in to my account.Thanks for reading me.</p> <br />
+                  <p>Phone: +8801862086965</p>
+                  <p>Email: hasanulkarimh@gamil.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
-                    </button>
-                    <button className='btn_shadow'>
+                    <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank"><button className='btn_shadow'>
+                      <i class='fab fa-facebook-f'></i>
+                    </button></a>
+                    <a href="https://www.instagram.com/hasanulhasan/" target="_blank"><button className='btn_shadow'>
                       <i className='fab fa-instagram'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
-                    </button>
+                    </button></a>
+                    <a href="https://t.me/hasanulhasan" target="_blank">
+                      <button className='btn_shadow'>
+                        <i className='fab fa-telegram'></i>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
