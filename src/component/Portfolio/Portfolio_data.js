@@ -4,7 +4,7 @@ const Portfolio_data = [
     category: "DEVELOPMENT",
     totalLike: "600",
     title: "The services provide for design ",
-    image: "./image/portfolio-01.jpg",
+    image: "https://cdn.educba.com/academy/wp-content/uploads/2016/01/Website-Design-Layout.jpg",
   },
   {
     id: 2,
