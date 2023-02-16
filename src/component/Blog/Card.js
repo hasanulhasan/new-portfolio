@@ -45,33 +45,9 @@ const Card = (props) => {
               <h1>{props.title_one}</h1>
               <p>{props.desc_one}</p>
 
-              <h1>{props.title_two}</h1>
-              <p>{props.desc_two}</p>
-
-              <h1>{props.title_three}</h1>
-              <p>{props.desc_three}</p>
-
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>
               </button>
-
-              {/*---------Leave Message----------  */}
-              <div className='contact mtop'>
-                <h1>Leave a Reply</h1>
-
-                <form className='blog_contact d_flex'>
-                  <div className='left'>
-                    <input type='text' placeholder='Name' />
-                    <input type='email' placeholder='Email' />
-                    <input type='text' placeholder='Website' />
-                    <button className='btn_shadow'>SUBMIT NOW</button>
-                  </div>
-                  <div className='right'>
-                    <textarea cols='30' rows='12' placeholder='Comment'></textarea>
-                  </div>
-                </form>
-              </div>
-              {/*---------Leave Message----------  */}
             </div>
           </div>
         </div>

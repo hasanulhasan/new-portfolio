@@ -11,7 +11,7 @@ const Blog = () => {
         <div className='container top'>
           <div className='heading text-center'>
             <h4>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Blog</h1>
+            <h1>Certification</h1>
           </div>
 
           <div className='content grid'>
