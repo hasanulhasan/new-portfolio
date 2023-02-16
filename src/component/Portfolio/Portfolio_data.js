@@ -1,45 +1,76 @@
+import mobileMarket from './../img/mobile-market.png'
+import learnEngineering from './../img/learn-engineering.png'
+import learningTime from './../img/learning-time.png'
+import alphaAcademy from './../img/alpha-academy.jpg'
+import helloHotel from './../img/hello-hotel.jpg'
+import photoGallery from './../img/photo-gallery.jpg'
+import newsToday from './../img/news-today.jpg'
+import burgerBuilder from './../img/burger-builder.jpg'
+import doctorPortal from './../img/doctor-portal.jpg'
+
 const Portfolio_data = [
   {
     id: 1,
-    category: "DEVELOPMENT",
+    category: "Full Stack Project",
     totalLike: "600",
-    title: "The services provide for design ",
-    image: "https://cdn.educba.com/academy/wp-content/uploads/2016/01/Website-Design-Layout.jpg",
+    title: "Mobile Market",
+    image: mobileMarket,
   },
   {
     id: 2,
-    category: "APPLICATION",
+    category: "Full Stack Project",
     totalLike: "750",
-    title: "Mobile app landing design & maintain",
-    image: "./image/portfolio-02.jpg",
+    title: "Learn Engineering",
+    image: learnEngineering,
   },
   {
     id: 3,
-    category: "PHOTOSHOP",
+    category: "Full Stack Project",
     totalLike: "630",
-    title: "Logo design creativity & Application ",
-    image: "./image/portfolio-03.jpg",
+    title: "Learning Time",
+    image: learningTime,
   },
   {
     id: 4,
-    category: "FIGMA",
+    category: "Full Stack Project",
     totalLike: "360",
-    title: "Mobile app landing design & Services",
-    image: "./image/portfolio-04.jpg",
+    title: "Alpha Academy",
+    image: alphaAcademy,
   },
   {
     id: 5,
-    category: "WEB DESIGN",
+    category: "Full Stack Project",
     totalLike: "280",
-    title: "Design for tecnology & services",
-    image: "./image/portfolio-05.jpg",
+    title: "Hello Hotel",
+    image: helloHotel,
   },
   {
     id: 6,
-    category: "WEB DESIGN",
+    category: "Full Stack Project",
     totalLike: "690",
-    title: "App for tecnology & services",
-    image: "./image/portfolio-06.jpg",
+    title: "Photo Gallery App",
+    image: photoGallery,
+  },
+  {
+    id: 7,
+    category: "Full Stack Project",
+    totalLike: "430",
+    title: "Burger Builder",
+    image: burgerBuilder,
+  },
+  {
+    id: 8,
+    category: "Front End Project",
+    totalLike: "780",
+    title: "News Today",
+    image: newsToday,
+  },
+  {
+    id: 9,
+    category: "Full Stack Project",
+    totalLike: "780",
+    title: "Doctor Portal",
+    image: doctorPortal,
   },
 ]
 export default Portfolio_data
