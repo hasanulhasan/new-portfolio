@@ -41,12 +41,16 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              <span>{props.category}</span>
               <h1>{props.title}</h1>
-              <p>This a demo text for project details</p>
-              <p>This is second demo for another project</p>
-              <p>This is second demo for another project 2</p>
-              <p>This is second demo for another project 3</p>
+              <h2>{props.subTitle}</h2>
+              <ul>
+                <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_one}</li>
+                <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_two}</li>
+                <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_three}</li>
+                <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_four}</li>
+              </ul>
+
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
                   LIKE THIS <i class='far fa-thumbs-up'></i>

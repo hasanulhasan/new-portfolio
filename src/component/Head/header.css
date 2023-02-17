@@ -30,6 +30,7 @@ header ul li a:hover {
 .home-btn {
   padding: 18px 25px;
   border-radius: 6px;
+  font-weight: bolder;
   transition: 0.3s all ease;
   cursor: pointer;
   height: fit-content;

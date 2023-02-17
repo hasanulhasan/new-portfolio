@@ -33,17 +33,17 @@ const Header = () => {
               <li>
                 <a href='#resume'>resume</a>
               </li>
-              <li>
+              {/* <li>
                 <a href='#clients'>clients</a>
-              </li>
+              </li> */}
               <li>
-                <a href='#blog'>blog</a>
+                <a href='#blog'>certification</a>
               </li>
               <li>
                 <a href='#contact'>contact</a>
               </li>
               <li>
-                <button className='home-btn'>Resume</button>
+                <a href="Md_Hasanul_Karim_Resume.pdf" download='Md_Hasanul_Karim.pdf'><button className='home-btn'>Get Resume</button></a>
               </li>
             </ul>
 

@@ -6,23 +6,23 @@ const BlogApi = [
   {
     id: 1,
     image: programmingHero,
-    date: "16 February, 2023",
-    title_one: "Programming Hero",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+    date: "Programming Hero",
+    title_one: "Complete Web Development Course",
+    desc_one: "Programming Hero is one of the most popular e-learning platform in Bangladesh. Recently I have done Complete Web Development Course with Jhankar Mahbub from Programming Hero. I am also a achieved black belt from this course. Here I have learnt Modern Web Technologies like HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React, React Router, Daisy UI, JWT, Firebase, Rest API, Node JS, MongoDB, Express JS etc."
   },
   {
     id: 2,
     image: bohubrihi,
-    date: "10 January, 2023",
-    title_one: "Bohubrihi",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+    date: "Bohubrihi",
+    title_one: "Full Stack Web Development Career Track",
+    desc_one: "Bohubrihi is a e-learning platform in Bangladesh. Recently I have done Web Development Course with JavaScript from Bohubrihi. Here I have learnt Modern Web Technologies like HTML, CSS, Bootstrap, JavaScript, React, React-Strap React Router, Firebase, Rest API, Node JS, MongoDB, Express JS, Redux etc."
   },
   {
     id: 3,
     image: bohubrihi2,
-    date: "4 Februray, 2021",
-    title_one: "Bohubrihi",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+    date: "Bohubrihi",
+    title_one: "HTML, CSS, and Bootstrap for Web Development",
+    desc_one: "Bohubrihi is a e-learning platform in Bangladesh. Recently I have done Web Development Course with JavaScript from Bohubrihi. Here I have learnt Modern Web Technologies like HTML, CSS, Bootstrap, JavaScript, React, React-Strap React Router, Firebase, Rest API, Node JS, MongoDB, Express JS, Redux etc."
   },
 ]
 export default BlogApi
