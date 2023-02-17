@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import contact1 from "./contact.gif"
 import "./Contact.css"
+import Lottie from "lottie-react";
+import contactLotti3 from './../pic/contactLotti3.json'
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -46,7 +48,8 @@ const Contact = () => {
             <div className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
-                  <img src={contact1} alt='' />
+                  {/* <img src={contact1} alt="" /> */}
+                  <Lottie style={{ width: '580px', height: '286px' }} animationData={contactLotti3} loop={true} />
                 </div>
                 <div className='details'>
                   <h1>Md Hasanul Karim</h1>
