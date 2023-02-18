@@ -22,7 +22,8 @@ const Portfolio_data = [
     desc_one: "Users can login in 3 ways and can maintain a dashboard.",
     desc_two: "Admin can control others and Buyer can add, delete and advertise phones.",
     desc_three: "User information of buyers and sellers can be manipulated through MongoDB",
-    desc_four: "Above all its a MERN Stack Project"
+    desc_four: "Above all its a MERN Stack Project",
+    stacks: ["Tailwind CSS", "Daisy UI", "Mamba UI", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
     id: 2,
@@ -37,7 +38,8 @@ const Portfolio_data = [
     desc_one: "Admin can add Service that store in MongoDB.",
     desc_two: " User Information can be controlled with firebase and MongoDB.",
     desc_three: "Users can put a realistic review and can add, delete, and edit these reviews.",
-    desc_four: "Above all its a MERN Stack Project"
+    desc_four: "Above all its a MERN Stack Project",
+    stacks: ["Tailwind CSS", "Daisy UI", "Mamba UI", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
     id: 3,
@@ -52,7 +54,8 @@ const Portfolio_data = [
     desc_one: "This is skill development site",
     desc_two: "User Can test quizzes and see mark",
     desc_three: "Result of quizzes can be shown in Chart and Graph",
-    desc_four: "Above all its a MERN Stack Project"
+    desc_four: "Above all its a MERN Stack Project",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
   {
     id: 4,
@@ -67,7 +70,8 @@ const Portfolio_data = [
     desc_one: "Users can see course details and purchase them only after login.",
     desc_two: "There added 2 types of login systems and save User Information with firebase",
     desc_three: "Students can learn and test their skills through MCQ system.",
-    desc_four: "Above all its a MERN Stack Project"
+    desc_four: "Above all its a MERN Stack Project",
+    stacks: ["Bootstrap", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
     id: 5,
@@ -82,7 +86,8 @@ const Portfolio_data = [
     desc_one: "A simple hotel booking app",
     desc_two: "User can book a hotel for a particular date",
     desc_three: "User can see hotel book info in dashboard",
-    desc_four: "This is a MERN Stack Project"
+    desc_four: "This is a MERN Stack Project",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
   {
     id: 6,
@@ -97,7 +102,8 @@ const Portfolio_data = [
     desc_one: "A simple photo gallery app",
     desc_two: "Various kinds of category added",
     desc_three: "User can comment on photo",
-    desc_four: "This is a MERN Stack Project"
+    desc_four: "This is a MERN Stack Project",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
   {
     id: 7,
@@ -112,7 +118,8 @@ const Portfolio_data = [
     desc_one: "A simple burger builder project",
     desc_two: "User can build burger",
     desc_three: "User can order his builded burger",
-    desc_four: "This is a Full Stack project"
+    desc_four: "This is a Full Stack project",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
   {
     id: 8,
@@ -127,7 +134,8 @@ const Portfolio_data = [
     desc_one: "This is a news portal and blog site",
     desc_two: "Pure JavaScript used for data fetching",
     desc_three: "Various kinds of news can be shown by category",
-    desc_four: "Bootstrap is used for front end design"
+    desc_four: "Bootstrap is used for front end design",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
   {
     id: 9,
@@ -142,7 +150,8 @@ const Portfolio_data = [
     desc_one: "User can book a particular date for appointment with doctor",
     desc_two: "Doctor can see the booking information from his Admin Dashboard",
     desc_three: "Information of Doctor can be seen on this site",
-    desc_four: "User can pay their service fee with Stripe"
+    desc_four: "User can pay their service fee with Stripe",
+    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
   },
 ]
 export default Portfolio_data

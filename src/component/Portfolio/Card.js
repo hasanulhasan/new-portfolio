@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import './Card.css'
 
 const Card = (props) => {
   const [modal, setModal] = useState(false)
@@ -41,7 +42,7 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>{props.category}</span>
+              {/* <span>{props.category}</span> */}
               <h1>{props.title}</h1>
               <h2>{props.subTitle}</h2>
               <ul>
@@ -50,6 +51,12 @@ const Card = (props) => {
                 <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_three}</li>
                 <li><i class='fas fa-chevron-right'></i><i class='fas fa-chevron-right'></i> {props.desc_four}</li>
               </ul>
+
+              <div>
+                {
+                  props.stacks.map(stack => <button className="button-special" style={{ color: '#ffffff' }}>{stack}</button>)
+                }
+              </div>
 
               <div className='button f_flex mtop'>
                 <a target="_blank" rel="noopener noreferrer" href={props.live_server}><button className='btn_shadow'>
