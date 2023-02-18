@@ -52,12 +52,15 @@ const Card = (props) => {
               </ul>
 
               <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
+                <a target="_blank" rel="noopener noreferrer" href={props.live_server}><button className='btn_shadow'>
+                  LIVE LINK <i class='fas fa-chevron-right'></i>
+                </button></a>
+                <a target="_blank" rel="noopener noreferrer" href={props.client}><button className='btn_shadow'>
+                  CLIENT <i class='fas fa-chevron-right'></i>
+                </button></a>
+                <a target="_blank" rel="noopener noreferrer" href={props.server}><button className='btn_shadow'>
+                  SERVER <i class='fas fa-chevron-right'></i>
+                </button></a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>

@@ -59,13 +59,13 @@ const Contact = () => {
                   <p>Email: hasanulkarimh@gamil.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
-                    <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank"><button className='btn_shadow'>
+                    <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noopener noreferrer"><button className='btn_shadow'>
                       <i class='fab fa-facebook-f'></i>
                     </button></a>
-                    <a href="https://www.instagram.com/hasanulhasan/" target="_blank"><button className='btn_shadow'>
+                    <a href="https://www.instagram.com/hasanulhasan/" target="_blank" rel="noopener noreferrer"><button className='btn_shadow'>
                       <i className='fab fa-instagram'></i>
                     </button></a>
-                    <a href="https://t.me/hasanulhasan" target="_blank">
+                    <a href="https://t.me/hasanulhasan" target="_blank" rel="noopener noreferrer">
                       <button className='btn_shadow'>
                         <i className='fab fa-telegram'></i>
                       </button>
@@ -80,7 +80,7 @@ const Contact = () => {
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
+                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} required />
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
@@ -89,7 +89,7 @@ const Contact = () => {
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' value={data.email} onChange={InputEvent} />
+                  <input type='email' name='email' value={data.email} onChange={InputEvent} required />
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
@@ -97,7 +97,7 @@ const Contact = () => {
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
+                  <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent} required></textarea>
                 </div>
                 <button className='btn_shadow'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
