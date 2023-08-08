@@ -1,39 +1,22 @@
-import React, { useState } from "react"
-import contact1 from "./contact.gif"
+import React, { useRef, useState } from "react"
 import "./Contact.css"
 import Lottie from "lottie-react";
 import contactLotti3 from './../pic/contactLotti3.json'
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  const [data, setData] = useState({
-    fullname: "",
-    phone: "",
-    email: "",
-    subject: "",
-    message: "",
-  })
-
-  const InputEvent = (event) => {
-    const { name, value } = event.target
-
-    setData((preVal) => {
-      return {
-        ...preVal,
-        [name]: value,
-      }
-    })
-  }
-
+  const form = useRef();
   const formSubmit = (event) => {
-    event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    )
+    event.preventDefault();
+    emailjs.sendForm('service_o69azmh', 'template_m6u1nr3', form.current, 'gfFMT0Gof2mDY-XG1')
+      .then((result) => {
+        console.log(result.text);
+        event.target.reset()
+        alert("Your has been send successfully");
+      }, (error) => {
+        console.log(error.text);
+      });
+
   }
   return (
     <>
@@ -43,12 +26,10 @@ const Contact = () => {
             <h4>CONTACT</h4>
             <h1>Contact With Me</h1>
           </div>
-
           <div className='content d_flex'>
             <div className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
-                  {/* <img src={contact1} alt="" /> */}
                   <Lottie style={{ width: '580px', height: '286px' }} animationData={contactLotti3} loop={true} />
                 </div>
                 <div className='details'>
@@ -76,31 +57,31 @@ const Contact = () => {
             </div>
 
             <div className='right box_shodow'>
-              <form onSubmit={formSubmit}>
+              <form onSubmit={formSubmit} ref={form}>
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} required />
+                    <input type='text' name='fullname' required />
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
-                    <input type='number' name='phone' value={data.phone} onChange={InputEvent} />
+                    <input type='number' name='phone' />
                   </div>
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' value={data.email} onChange={InputEvent} required />
+                  <input type='email' name='email' required />
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' value={data.subject} onChange={InputEvent} />
+                  <input type='text' name='subject' required />
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent} required></textarea>
+                  <textarea cols='30' rows='10' name='message' required></textarea>
                 </div>
                 <button className='btn_shadow'>
-                  SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
+                  SEND MESSAGE <i className='fas fa-long-arrow-right'></i>
                 </button>
               </form>
             </div>

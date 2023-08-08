@@ -4,13 +4,45 @@ import learningTime from './../img/learning-time.png'
 import alphaAcademy from './../img/alpha-academy.jpg'
 import helloHotel from './../img/hello-hotel.jpg'
 import photoGallery from './../img/photo-gallery.jpg'
-import newsToday from './../img/news-today.jpg'
-import burgerBuilder from './../img/burger-builder.jpg'
+import bookTown from './../img/bookTown.png'
+import quantumByte from './../img/quantum-byte.png'
 import doctorPortal from './../img/doctor-portal.jpg'
 
 const Portfolio_data = [
   {
     id: 1,
+    category: "Full Stack Project",
+    totalLike: "660",
+    title: "Quantum Byte",
+    subTitle: "Website for showing tech product and PC building",
+    image: quantumByte,
+    live_server: 'https://quantum-byte.vercel.app/',
+    client: 'https://github.com/hasanulhasan/quantum-byte',
+    server: 'https://github.com/hasanulhasan/quantum-byte-backend',
+    desc_one: " User can see products, product details and related products with featured category.",
+    desc_two: "Auth user can build a complete PC with available components in site",
+    desc_three: "Admin can Add product, Delete and Edit product information.",
+    desc_four: "This fully responsive site has Search and Sort filter in Category field",
+    stacks: ["Next JS", "Material UI", "Redux Toolkit", "RTK Query", "Firebase", "React JS", "TypeScript", "Express JS", "MongoDB", "Mongoose"]
+  },
+  {
+    id: 2,
+    category: "Full Stack Project",
+    totalLike: "750",
+    title: "The BookTown",
+    subTitle: "Book selling and service-related website",
+    image: bookTown,
+    live_server: 'https://the-booktown-f5ca6.web.app/',
+    client: 'https://github.com/hasanulhasan/the-booktown',
+    server: 'https://github.com/hasanulhasan/the-booktown-backend',
+    desc_one: " User can see book list and book details with filtering and sorting by price, date etc.",
+    desc_two: "Auth user can make Review, Add book to wishlist and make CRUD operation here.",
+    desc_three: "Admin can Add book, Delete and Edit book information.",
+    desc_four: "This fully responsive site may be a mini e-commerce site",
+    stacks: ["TypeScript", "Redux Toolkit", "RTK Query", "Radix UI", "Tailwind CSS", "React JS","React Router", "Firebase", "Node JS", "Express JS", "MongoDB", "Express JS"]
+  },
+  {
+    id: 3,
     category: "Full Stack Project",
     totalLike: "600",
     title: "Mobile Market",
@@ -26,7 +58,7 @@ const Portfolio_data = [
     stacks: ["Tailwind CSS", "Daisy UI", "Mamba UI", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
-    id: 2,
+    id: 4,
     category: "Full Stack Project",
     totalLike: "750",
     title: "Eagle Engineering",
@@ -42,7 +74,7 @@ const Portfolio_data = [
     stacks: ["Tailwind CSS", "Daisy UI", "Mamba UI", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
-    id: 3,
+    id: 5,
     category: "Front End Project",
     totalLike: "630",
     title: "Learning Time",
@@ -51,14 +83,14 @@ const Portfolio_data = [
     live_server: 'https://monumental-stroopwafel-c88b88.netlify.app/',
     client: 'https://github.com/hasanulhasan/learning-time',
     server: 'https://github.com/hasanulhasan/learning-time',
-    desc_one: "This is skill development site",
+    desc_one: "This is mainly a skill development site",
     desc_two: "User Can test quizzes and see mark",
     desc_three: "Result of quizzes can be shown in Chart and Graph",
-    desc_four: "Above all its a MERN Stack Project",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
+    desc_four: "This a frontend project builds on Tailwind CSS",
+    stacks: ["Tailwind CSS", "CSS", "JavaScript", "React JS", "Rest API", "Recharts"]
   },
   {
-    id: 4,
+    id: 6,
     category: "Full Stack Project",
     totalLike: "360",
     title: "Alpha Academy",
@@ -71,10 +103,10 @@ const Portfolio_data = [
     desc_two: "There added 2 types of login systems and save User Information with firebase",
     desc_three: "Students can learn and test their skills through MCQ system.",
     desc_four: "Above all its a MERN Stack Project",
-    stacks: ["Bootstrap", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
+    stacks: ["Bootstrap", "React JS", "React-dom", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
   {
-    id: 5,
+    id: 7,
     category: "Full Stack Project",
     totalLike: "280",
     title: "Hello Hotel",
@@ -87,10 +119,10 @@ const Portfolio_data = [
     desc_two: "User can book a hotel for a particular date",
     desc_three: "User can see hotel book info in dashboard",
     desc_four: "This is a MERN Stack Project",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
+    stacks: ["Tailwind CSS", "React", "React-dom", "Tanstack-Query", "Firebase", "MongoDB", "NodeJS", "Express JS"]
   },
   {
-    id: 6,
+    id: 8,
     category: "Full Stack Project",
     totalLike: "690",
     title: "Photo Gallery App",
@@ -103,39 +135,7 @@ const Portfolio_data = [
     desc_two: "Various kinds of category added",
     desc_three: "User can comment on photo",
     desc_four: "This is a MERN Stack Project",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
-  },
-  {
-    id: 7,
-    category: "Full Stack Project",
-    totalLike: "430",
-    title: "Burger Builder",
-    subTitle: "Burger building and ordering website",
-    image: burgerBuilder,
-    live_server: '',
-    client: '',
-    server: '',
-    desc_one: "A simple burger builder project",
-    desc_two: "User can build burger",
-    desc_three: "User can order his builded burger",
-    desc_four: "This is a Full Stack project",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
-  },
-  {
-    id: 8,
-    category: "Front End Project",
-    totalLike: "780",
-    title: "News Today",
-    subTitle: "Online news and blog website",
-    image: newsToday,
-    live_server: 'https://flourishing-marzipan-75c302.netlify.app/',
-    client: 'https://github.com/hasanulhasan/news-today',
-    server: 'https://github.com/hasanulhasan/news-today',
-    desc_one: "This is a news portal and blog site",
-    desc_two: "Pure JavaScript used for data fetching",
-    desc_three: "Various kinds of news can be shown by category",
-    desc_four: "Bootstrap is used for front end design",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
+    stacks: ["Flowbite", "React", "React-dom", "Tanstack-Query", "Firebase", "MongoDB", "NodeJS", "Express JS"]
   },
   {
     id: 9,
@@ -151,7 +151,7 @@ const Portfolio_data = [
     desc_two: "Doctor can see the booking information from his Admin Dashboard",
     desc_three: "Information of Doctor can be seen on this site",
     desc_four: "User can pay their service fee with Stripe",
-    stacks: ["HTML", "CSS", "JavaScript", "NodeJS"]
+    stacks: ["Tailwind CSS", "Daisy UI", "TanStack Query", "React JS", "Firebase", "Node JS", "Express JS", "MongoDB"]
   },
 ]
 export default Portfolio_data

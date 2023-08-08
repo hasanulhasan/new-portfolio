@@ -54,7 +54,7 @@ const Card = (props) => {
 
               <div>
                 {
-                  props.stacks.map(stack => <button className="button-special" style={{ color: '#ffffff' }}>{stack}</button>)
+                  props.stacks.map(stack => <button className="button-special" style={{ color: "#222222" }}>{stack}</button>)
                 }
               </div>
 
