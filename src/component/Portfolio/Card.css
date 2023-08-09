@@ -44,3 +44,12 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+@media (max-width: 768px) {
+  .modal .f_flex{
+    flex-direction: column;
+  }
+  .modal .button a{
+    margin-top: 8px;
+  }
+}

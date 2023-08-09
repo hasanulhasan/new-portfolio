@@ -23,19 +23,19 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>I'm Hasanul Karim, a simple cheerful man who is passionate about learning and developing skills through hands-on experience. Experienced in web development ecosystems. Clean code can be produced using HTML5, CSS, JavaScript, React JS, Node JS, Redux, React Native and other programming frameworks. I can work both independently and in groups. I'm looking for a position where I can put my expertise in programming frameworks and development to use.</p>
+            <p>I'm Hasanul Karim, a simple, cheerful man passionate about learning and developing skills through hands-on experience. I'm 1.5 years experienced in web development ecosystems. I can write clean code using HTML5, CSS, JavaScript, React JS, Next JS, Node JS   and other programming languages. I can work both independently and in groups. I'm looking for a position where I can perform my expertise in programming frameworks and development to use.</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
-                  <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank"><button className='btn_shadow'>
+                  <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
                   </button></a>
-                  <a href="https://github.com/hasanulhasan" target="_blank"><button className='btn_shadow'>
+                  <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer"><button className='btn_shadow'>
                     <i class='fab fa-github'></i>
                   </button></a>
-                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank"><button className='btn_shadow'>
+                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
                     <i class='fab fa-linkedin-in'></i>
                   </button></a>
                 </div>

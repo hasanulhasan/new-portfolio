@@ -43,7 +43,7 @@ const Header = () => {
                 <a href='#contact'>contact</a>
               </li>
               <li>
-                <a href="Md_Hasanul_Karim_Resume.pdf" download='Md_Hasanul_Karim.pdf'><button className='home-btn'>Get Resume</button></a>
+                <a href="Md_Hasanul_Karim_Resume.pdf" download='Md_Hasanul_Karim_Resume.pdf'><button className='home-btn'>Get Resume</button></a>
               </li>
             </ul>
 

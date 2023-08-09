@@ -30,7 +30,7 @@ const Contact = () => {
             <div className='left'>
               <div className='box box_shodow'>
                 <div className='img'>
-                  <Lottie style={{ width: '580px', height: '286px' }} animationData={contactLotti3} loop={true} />
+                  <Lottie style={{ width: '100%', height: '286px' }} animationData={contactLotti3} loop={true} />
                 </div>
                 <div className='details'>
                   <h1>Md Hasanul Karim</h1>

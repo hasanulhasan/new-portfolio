@@ -149,4 +149,7 @@ body.active-modal {
   .modal .left {
     padding: 0;
   }
+  .Portfolio .img {
+    height: auto;
+  }
 }
