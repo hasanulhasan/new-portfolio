@@ -159,3 +159,15 @@ footer p {
     width: 100%;
   }
 }
+
+@media (max-width: 472px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+

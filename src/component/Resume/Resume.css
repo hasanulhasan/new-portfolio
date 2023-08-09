@@ -79,6 +79,7 @@
 .Resume .box:hover.box:before {
   background: #ff3a75;
 }
+
 @media (max-width: 768px) {
   .Resume .d_flex {
     flex-direction: column;
