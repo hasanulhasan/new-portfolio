@@ -3,7 +3,7 @@ import './Skill.css'
 const Skill = () => {
   return (
     <>
-      <section className='Skill top' id='skill'>
+      <section className='Skill top' id='skills'>
         <div className='container'>
           <div className='heading text-center '>
             <h4>VISIT MY SKILL AND KEEP YOUR FEEDBACK</h4>
@@ -37,16 +37,34 @@ const Skill = () => {
                 <p>75%</p>
             </div>
             <div class="bar">
-                <span class="sass"></span>
+                <span class="tailwindCss"></span>
             </div>
         </div>
         <div class="skill_bar btn_shadow">
             <div class="info">
-                <p>Java Script</p>
-                <p>80%</p>
+                <p>Bootstrap</p>
+                <p>85%</p>
             </div>
             <div class="bar">
-                <span class="js"></span>
+                <span class="bootstrap"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>Material UI</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="material"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>JavaScript</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="javaScript"></span>
             </div>
         </div>
         <div class="skill_bar btn_shadow">
@@ -60,7 +78,34 @@ const Skill = () => {
         </div>
         <div class="skill_bar btn_shadow">
             <div class="info">
-                <p>Node js</p>
+                <p>TypeScript</p>
+                <p>65%</p>
+            </div>
+            <div class="bar">
+                <span class="typeScript"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>Redux</p>
+                <p>95%</p>
+            </div>
+            <div class="bar">
+                <span class="redux"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>Next JS</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="next"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>Node JS</p>
                 <p>70%</p>
             </div>
             <div class="bar">
@@ -69,7 +114,16 @@ const Skill = () => {
         </div>
         <div class="skill_bar btn_shadow">
             <div class="info">
-                <p>Express js</p>
+                <p>Firebase</p>
+                <p>70%</p>
+            </div>
+            <div class="bar">
+                <span class="firebase"></span>
+            </div>
+        </div>
+        <div class="skill_bar btn_shadow">
+            <div class="info">
+                <p>Express JS</p>
                 <p>60%</p>
             </div>
             <div class="bar">
@@ -78,7 +132,7 @@ const Skill = () => {
         </div>
         <div class="skill_bar btn_shadow">
             <div class="info">
-                <p>Mongo DB</p>
+                <p>MongoDB</p>
                 <p>65%</p>
             </div>
             <div class="bar">
