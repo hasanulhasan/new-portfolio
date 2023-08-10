@@ -9,6 +9,7 @@ import Blog from "./component/Blog/Blog"
 import Contact from "./component/Contact/Contact"
 import Footer from "./component/Footer"
 import "./App.css"
+import Skill from "./component/Skill/Skill"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <Home />
       <Portfolio />
+      <Skill/>
       <Features />
       <Resume />
       {/* <Testimonial /> */}

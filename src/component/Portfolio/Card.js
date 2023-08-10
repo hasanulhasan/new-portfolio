@@ -13,6 +13,7 @@ const Card = (props) => {
   } else {
     document.body.classList.remove("active-modal")
   }
+  
   return (
     <>
       <div className='box btn_shadow '>
