@@ -1,11 +1,11 @@
-import mobileMarket from './../img/mobile-market.png'
-import learnEngineering from './../img/learn-engineering.png'
-import learningTime from './../img/learning-time.png'
+import mobileMarket from './../img/mobile-market.jpg'
+import eagleEngineering from './../img/eagle-engineering.jpg'
+import learningTime from './../img/learning-time.jpg'
 import alphaAcademy from './../img/alpha-academy.jpg'
 import helloHotel from './../img/hello-hotel.jpg'
 import photoGallery from './../img/photo-gallery.jpg'
-import bookTown from './../img/bookTown.png'
-import quantumByte from './../img/quantum-byte.png'
+import bookTown from './../img/bookTown.jpg'
+import quantumByte from './../img/quantum-byte.jpg'
 import doctorPortal from './../img/doctor-portal.jpg'
 
 const Portfolio_data = [
@@ -63,7 +63,7 @@ const Portfolio_data = [
     totalLike: "750",
     title: "Eagle Engineering",
     subTitle: "Engineering service related website",
-    image: learnEngineering,
+    image: eagleEngineering,
     live_server: 'https://eagle-engineering.web.app/',
     client: 'https://github.com/hasanulhasan/eagle-engineering',
     server: 'https://github.com/hasanulhasan/eagle-engineering-server',
@@ -144,9 +144,9 @@ const Portfolio_data = [
     title: "Doctor Portal",
     subTitle: "Website for dentists information appointment",
     image: doctorPortal,
-    live_server: '',
-    client: '',
-    server: '',
+    live_server: 'https://doctors-portal-ebc8a.web.app/',
+    client: 'https://github.com/hasanulhasan/doctors-portal',
+    server: 'https://github.com/hasanulhasan/doctors-portal-server',
     desc_one: "User can book a particular date for appointment with doctor",
     desc_two: "Doctor can see the booking information from his Admin Dashboard",
     desc_three: "Information of Doctor can be seen on this site",

@@ -1,6 +1,6 @@
-import programmingHero from './../pic/programming-hero.jpg'
-import bohubrihi from './../pic/bohubrihi.jpg'
-import bohubrihi2 from './../pic/bohubrihi-2.jpg'
+import programmingHero from './../img/programming-hero.jpg'
+import bohubrihi from './../img/bohubrihi.jpg'
+import bohubrihi2 from './../img/bohubrihi-2.jpg'
 
 const BlogApi = [
   {

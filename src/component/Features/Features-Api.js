@@ -7,7 +7,7 @@ const data = [
   },
   {
     id: 2,
-    image: "https://img.icons8.com/ios/40/000000/open-book.png",
+    image: "https://img.icons8.com/ios/64/000000/open-book.png",
     title: "Web Development",
     desc: "I can work with front and backend development with React, Node JS, Express JS and MongoDb technologies",
   },
@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 6,
-    image: "https://img.icons8.com/glyph-neue/50/000000/polyline.png ",
+    image: "https://img.icons8.com/glyph-neue/64/000000/polyline.png ",
     title: "Digital Marketing",
     desc: "I have some knowledge of Digital Marketing. I also do Facebook Marketing",
   },

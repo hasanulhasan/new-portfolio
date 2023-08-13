@@ -1,16 +1,16 @@
 import React from "react"
-import logo1 from "./pic/me3.png"
+import logo1 from "./img/me.png"
 import './Footer.css'
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='conatiner text-center top'>
+        <div className='text-center'>
           <div className='img footer'>
             <img src={logo1} alt='' />
           </div>
-          <p>© 2023. All rights reserved by Md Hasanul Karim</p>
+          <p>All rights reserved by Md Hasanul Karim. &nbsp;© 2023</p>
         </div>
       </footer>
     </>

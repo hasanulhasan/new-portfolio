@@ -1,9 +1,12 @@
 import React from "react"
 import "./Home.css"
-import hero from "../pic/herono1.png"
-import skill1 from "../pic/js.png"
-import skill2 from "../pic/react.png"
-import skill3 from "../pic/node-js.png"
+import hero from "../img/herono.png"
+import skill1 from "../img/js.png"
+import skill2 from "../img/react.png"
+import skill3 from "../img/node-js.png"
+import fb from "../img/facebook.png"
+import linkedIn from "../img/linkedin.png"
+import github from "../img/github.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -29,15 +32,12 @@ const Home = () => {
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
-                  <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
-                  </button></a>
-                  <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer"><button className='btn_shadow'>
-                    <i class='fab fa-github'></i>
-                  </button></a>
-                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
-                  </button></a>
+                  <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noreferrer">
+                    <button className='btn_shadow'><img src={fb} alt='' /></button></a>
+                  <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer">
+                    <button className='btn_shadow'><img src={github} alt='' /></button></a>
+                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer">
+                  <button className='btn_shadow'><img src={linkedIn} alt='' /></button></a>
                 </div>
               </div>
               <div className='col_1'>

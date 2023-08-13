@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react"
 import "./Contact.css"
 import Lottie from "lottie-react";
-import contactLotti3 from './../pic/contactLotti3.json'
+import contactLotti3 from './../img/contactLotti3.json'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -34,18 +34,21 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Md Hasanul Karim</h1>
-                  <p>MERN Stack Developer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.Thanks for reading me.</p> <br />
+                  <p style={{fontWeight: '600'}}>MERN Stack Developer</p>
+                  <p>I am available for any freelance work or full/part time job. I enjoy connecting with people and exchanging ideas, so please get in touch with me at my social link. Thanks for visiting me.</p> <br />
                   <p>Phone: +8801862086965</p>
-                  <p>Email: hasanulkarimh@gamil.com</p> <br />
+                  <p>Email: hasanulkarimh@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
                     <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noopener noreferrer"><button className='btn_shadow'>
                       <i class='fab fa-facebook-f'></i>
                     </button></a>
-                    <a href="https://www.instagram.com/hasanulhasan/" target="_blank" rel="noopener noreferrer"><button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
-                    </button></a>
+                    <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer"><button className='btn_shadow'>
+                    <i class='fab fa-github'></i>
+                  </button></a>
+                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
+                    <i class='fab fa-linkedin-in'></i>
+                  </button></a>
                     <a href="https://t.me/hasanulhasan" target="_blank" rel="noopener noreferrer">
                       <button className='btn_shadow'>
                         <i className='fab fa-telegram'></i>

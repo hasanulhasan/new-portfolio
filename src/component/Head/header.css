@@ -4,10 +4,11 @@ header {
 }
 
 header .container {
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 header .logo img {
+  margin-top: 5px;
   height: 70px;
   width: 70px;
 }
@@ -52,7 +53,7 @@ header ul li a:hover {
 }
 
 .header.active {
-  height: 12vh;
+  height: 10vh;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -119,5 +120,9 @@ header ul li a:hover {
 
   .header.active {
     height: 10vh;
+  }
+  header .logo img {
+    margin-top: 15px;
+    padding-top: 10px;
   }
 }
