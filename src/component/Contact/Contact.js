@@ -16,7 +16,6 @@ const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
-
   }
   return (
     <>
@@ -38,7 +37,7 @@ const Contact = () => {
                   <p>I am available for any freelance work or full/part time job. I enjoy connecting with people and exchanging ideas, so please get in touch with me at my social link. Thanks for visiting me.</p> <br />
                   <p>Phone: +8801862086965</p>
                   <p>Email: hasanulkarimh@gmail.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <span>FIND WITH ME </span>
                   <div className='button f_flex'>
                     <a href="https://www.facebook.com/hasanulkarim.hasan1/" target="_blank" rel="noopener noreferrer"><button className='btn_shadow'>
                       <i class='fab fa-facebook-f'></i>

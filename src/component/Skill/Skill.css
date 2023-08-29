@@ -1,6 +1,6 @@
 .skills_section{
 	margin: auto;
-	width: 90%;
+	width: 95%;
 	padding: 15px 5%;
 	display: flex;
 	align-items: center;
@@ -11,7 +11,7 @@
 .skills_main{
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-row-gap: 30px;
 	grid-column-gap: 50px;
 }
@@ -103,7 +103,7 @@
 	}
 }
 
-.skill_bar .bar .javaScript{
+.skill_bar .bar .javascript{
 	width: 70%;
 	animation: javaScript 2s;
 }
@@ -127,7 +127,7 @@
 	}
 }
 
-.skill_bar .bar .typeScript{
+.skill_bar .bar .typescript{
 	width: 65%;
 	animation: typeScript 2s;
 }
@@ -186,26 +186,74 @@
 	}
 }
 
-.skill_bar .bar .express{
+.skill_bar .bar .expressjs{
 	width: 60%;
-	animation: express 2s;
+	animation: expressjs 2s;
 }
-@keyframes express {
+@keyframes expressjs {
 	0%{
 			width: 0%;
 	}100%{
 			width: 60%;
 	}
 }
-.skill_bar .bar .mongo{
+.skill_bar .bar .mongoose{
 	width: 65%;
-	animation: mongo 2s;
+	animation: mongoose 2s;
 }
-@keyframes mongo {
+@keyframes mongoose {
 	0%{
 			width: 0%;
 	}100%{
 			width: 65%;
+	}
+}
+
+.skill_bar .bar .mongodb{
+	width: 65%;
+	animation: mongodb 2s;
+}
+@keyframes mongodb {
+	0%{
+			width: 0%;
+	}100%{
+			width: 65%;
+	}
+}
+
+.skill_bar .bar .prisma{
+	width: 60%;
+	animation: prisma 2s;
+}
+@keyframes prisma {
+	0%{
+			width: 0%;
+	}100%{
+			width: 60%;
+	}
+}
+
+.skill_bar .bar .postgresql{
+	width: 65%;
+	animation: postgresql 2s;
+}
+@keyframes postgresql {
+	0%{
+			width: 0%;
+	}100%{
+			width: 65%;
+	}
+}
+
+.skill_bar .bar .github{
+	width: 75%;
+	animation: github 2s;
+}
+@keyframes github {
+	0%{
+			width: 0%;
+	}100%{
+			width: 75%;
 	}
 }
 
