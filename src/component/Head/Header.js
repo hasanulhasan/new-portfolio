@@ -36,9 +36,9 @@ const Header = () => {
               <li>
                 <a href='#resume'>resume</a>
               </li>
-              {/* <li>
-                <a href='#clients'>clients</a>
-              </li> */}
+              <li>
+                <a href='#clients'>review </a>
+              </li>
               <li>
                 <a href='#blog'>certification</a>
               </li>

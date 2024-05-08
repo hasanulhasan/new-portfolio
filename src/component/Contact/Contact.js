@@ -3,6 +3,7 @@ import "./Contact.css"
 import Lottie from "lottie-react";
 import contactLotti3 from './../img/contactLotti3.json'
 import emailjs from '@emailjs/browser';
+import RevealMotion from "../../utils/RevealMotion";
 
 const Contact = () => {
   const form = useRef();
@@ -22,8 +23,10 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
+            <RevealMotion>
             <h4>CONTACT</h4>
             <h1>Contact With Me</h1>
+            </RevealMotion>
           </div>
           <div className='content d_flex'>
             <div className='left'>

@@ -3,6 +3,7 @@ import "../Portfolio/Portfolio.css"
 import "../Blog/Blog.css"
 import Card from "./Card"
 import BlogApi from "./BlogApi"
+import RevealMotion from "../../utils/RevealMotion"
 
 const Blog = () => {
   return (
@@ -10,8 +11,10 @@ const Blog = () => {
       <section className='Portfolio Blog' id='blog'>
         <div className='container top'>
           <div className='heading text-center'>
+            <RevealMotion>
             <h4>EXPLORE MY ACHIEVEMENT AND KEEP YOUR FEEDBACK</h4>
             <h1>Certification</h1>
+            </RevealMotion>
           </div>
 
           <div className='content grid'>

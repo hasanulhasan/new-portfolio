@@ -2,6 +2,7 @@ import React from "react"
 import "./Features.css"
 import data from "./Features-Api"
 import Card from "./Card"
+import RevealMotion from "../../utils/RevealMotion"
 
 const Features = () => {
   return (
@@ -9,8 +10,10 @@ const Features = () => {
       <section className='features top' id='features'>
         <div className='container'>
           <div className='heading'>
+            <RevealMotion>
             <h4>Features</h4>
             <h1>What I Do</h1>
+            </RevealMotion>
           </div>
 
           <div className='content grid'>

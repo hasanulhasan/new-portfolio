@@ -2,6 +2,7 @@ import React from "react"
 import "./Resume.css"
 import ResumeApi from "./ResumeApi"
 import Card from "./Card"
+import RevealMotion from "../../utils/RevealMotion"
 
 const Resume = () => {
   return (
@@ -9,8 +10,10 @@ const Resume = () => {
       <section className='Resume' id='resume'>
         <div className='container top'>
           <div className='heading text-center'>
+            <RevealMotion>
             <h4>2+ YEARS OF EXPERIENCE</h4>
             <h1>My Resume</h1>
+            </RevealMotion>
           </div>
 
           <div className='content-section mtop d_flex'>

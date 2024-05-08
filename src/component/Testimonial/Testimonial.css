@@ -28,6 +28,9 @@
   font-weight: 400;
   margin-bottom: 40px;
 }
+.Testimonial .content p {
+  text-align: justify;
+}
 .Testimonial .slide_button {
   position: absolute;
   top: 30px;

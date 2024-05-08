@@ -2,6 +2,7 @@ import React from "react"
 import "./Portfolio.css"
 import Card from "./Card"
 import Portfolio_data from "./Portfolio_data"
+import RevealMotion from "../../utils/RevealMotion"
 
 const Portfolio = () => {
   return (
@@ -9,8 +10,13 @@ const Portfolio = () => {
       <section className='Portfolio top' id='portfolio'>
         <div className='container'>
           <div className='heading text-center '>
+          <RevealMotion>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
+
+          </RevealMotion>
+          <RevealMotion>
             <h1>My Portfolio</h1>
+          </RevealMotion>
           </div>
 
           <div className='content grid'>

@@ -8,6 +8,7 @@ import fb from "../img/facebook.png"
 import linkedIn from "../img/linkedin.png"
 import github from "../img/github.png"
 import { Typewriter } from "react-simple-typewriter"
+import RevealMotion from "../../utils/RevealMotion"
 
 const Home = () => {
   return (
@@ -25,8 +26,9 @@ const Home = () => {
                 <Typewriter words={[" MERN Stack Developer.", " React Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
-
+            <RevealMotion>
             <p>I'm Hasanul Karim, a simple, cheerful man passionate about learning and developing skills through hands-on experience. I'm 1.5 years experienced in web development ecosystems. I can write clean code using HTML5, CSS, JavaScript, React JS, Next JS, Node JS   and other programming languages. I can work both independently and in groups. I'm looking for a position where I can perform my expertise in programming frameworks and development to use.</p>
+            </RevealMotion>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
