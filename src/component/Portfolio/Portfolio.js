@@ -3,6 +3,7 @@ import "./Portfolio.css"
 import Card from "./Card"
 import Portfolio_data from "./Portfolio_data"
 import RevealMotion from "../../utils/RevealMotion"
+import { Link } from "react-router-dom"
 
 const Portfolio = () => {
   return (
@@ -20,10 +21,13 @@ const Portfolio = () => {
           </div>
 
           <div className='content grid'>
-            {Portfolio_data.map((value, index) => {
+            {Portfolio_data.slice(0, 3).map((value, index) => {
               return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} subTitle={value.subTitle} desc_one={value.desc_one} desc_two={value.desc_two} desc_three={value.desc_three} desc_four={value.desc_four} live_server={value.live_server} client={value.client} server={value.server} stacks={value.stacks} />
             })}
           </div>
+         <div style={{display: "flex", justifyContent: "center", width: "full"}}>
+         <Link to={'/projects'} className="button-gradient">Show more</Link>
+         </div>
         </div>
       </section>
     </>

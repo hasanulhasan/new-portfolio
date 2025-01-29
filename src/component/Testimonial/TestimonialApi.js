@@ -1,7 +1,11 @@
+import farhana from '../img/farhana.jpg'
+import mishuk from '../img/mishuk.jpg'
+import saimon from '../img/saimon.jpg'
+
 const TestimonialApi = [
   {
     id: 1,
-    image: "https://avatars.githubusercontent.com/u/36596826?v=4",
+    image: mishuk,
     design: "The Purple Algorithm",
     name: "Jahidul Alam Mishuk",
     offcer: "Senior Software Engineer",
@@ -11,8 +15,7 @@ const TestimonialApi = [
   },
   {
     id: 2,
-    image:
-      "https://media.licdn.com/dms/image/D5603AQHjALxSaoQGPA/profile-displayphoto-shrink_800_800/0/1712035115917?e=1720656000&v=beta&t=hDFzWypmBGyqcBYqCFP9T1yCJX8ZQv-4_JTP9koXmaM",
+    image: farhana,
     design: "Programming Hero",
     name: "Gazi Tasnuva Farhana",
     offcer: "Job Placement Executive",
@@ -22,7 +25,7 @@ const TestimonialApi = [
   },
   {
     id: 3,
-    image: "https://avatars.githubusercontent.com/u/86842470?v=4",
+    image: saimon,
     design: "Tulip Tech",
     name: "Sadiqul Alam Saimon",
     offcer: "SQA Lead",

@@ -38,7 +38,7 @@ const Home = () => {
                     <button className='btn_shadow'><img src={fb} alt='' /></button></a>
                   <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer">
                     <button className='btn_shadow'><img src={github} alt='' /></button></a>
-                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer">
+                  <a href="https://www.linkedin.com/in/hasanulkarim/" target="_blank" rel="noreferrer">
                   <button className='btn_shadow'><img src={linkedIn} alt='' /></button></a>
                 </div>
               </div>

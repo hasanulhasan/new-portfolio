@@ -48,7 +48,7 @@ const Contact = () => {
                     <a href="https://github.com/hasanulhasan" target="_blank" rel="noreferrer"><button className='btn_shadow'>
                     <i class='fab fa-github'></i>
                   </button></a>
-                  <a href="https://www.linkedin.com/in/md-hasanul-karim-49284910a/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
+                  <a href="https://www.linkedin.com/in/hasanulkarim/" target="_blank" rel="noreferrer"><button className='btn_shadow'>
                     <i class='fab fa-linkedin-in'></i>
                   </button></a>
                     <a href="https://t.me/hasanulhasan" target="_blank" rel="noopener noreferrer">

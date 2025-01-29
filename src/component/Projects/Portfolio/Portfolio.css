@@ -132,26 +132,19 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
-.button-gradient {
-  border: 2px solid transparent;
-  background-image: linear-gradient(to right, #7e5bef, #ff014f); /* from-purple-500 to-pink-500 */
-  color: white;
-  padding: 12px 24px;
-  border-radius: 9999px; /* Full rounded corners (rounded-full) */
-  background-clip: padding-box; /* To show the border effect */
-  transition: all 0.3s ease; /* Smooth transition for hover */
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 20px;
-  width: 400px;
-  text-align: center;
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default: 1 column */
+  column-gap: 16px;
+  row-gap: 12px;
+  margin-bottom: 20px;
 }
 
-.button-gradient:hover {
-  background-image: linear-gradient(to right, #6b4dca, #d2007d); /* hover: from-purple-600 to-pink-600 */
+@media (min-width: 768px) { /* Equivalent to Tailwind's md breakpoint */
+  .button-grid {
+    grid-template-columns: repeat(6, 1fr); /* 5 columns on medium+ screens */
+  }
 }
-
 /*------------popup--------*/
 @media (max-width: 768px) {
   .modal,

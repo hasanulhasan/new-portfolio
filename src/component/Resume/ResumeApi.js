@@ -34,10 +34,10 @@ const ResumeApi = [
   {
     id: 5,
     category: "experience",
-    year: "The Purple algorithm. (2024 - present) ",
+    year: "Beyondtech (2024 - present) ",
     title: "Frontend Developer",
     desc: "The Purple algorithm is sister concern of Global Immigration Consultants Ltd. Here i am working with Frontend web technologies such as React JS, Next JS, Material UI, Tailwind CSS etc.",
-    rate: "1 month",
+    rate: "1 year",
   },
   {
     id: 6,

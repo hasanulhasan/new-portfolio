@@ -19,7 +19,7 @@ const Card = (props) => {
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
         <div className='category d_flex'>
-          <span onClick={toggleModal}>{props.date}</span>
+          <span onClick={toggleModal}>{props.institute}</span>
           {/*<label>
             <i className='far fa-heart'></i> {props.date}
           </label>*/}
@@ -41,7 +41,7 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>{props.date}</span>
+              <span>{props.institute}</span>
               <h1>{props.title_one}</h1>
               <p>{props.desc_one}</p>
 

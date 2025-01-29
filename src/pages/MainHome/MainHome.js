@@ -12,7 +12,7 @@ import Skill from '../../component/Skill/Skill'
 export default function MainHome() {
   return (
     <>
-          <Header />
+      <Header />
       <Home />
       <Portfolio />
       <Skill/>
