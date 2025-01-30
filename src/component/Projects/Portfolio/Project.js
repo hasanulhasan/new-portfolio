@@ -34,11 +34,11 @@ const Project = () => {
         <div className="container">
           <div className="heading text-center">
             {/* <RevealMotion>
-              <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
+              <h4>My All Projects</h4>
             </RevealMotion> */}
-            <RevealMotion>
+            {/* <RevealMotion>
               <h1>My All Projects</h1>
-            </RevealMotion>
+            </RevealMotion> */}
           </div>
           <div className="button-grid">
             {techStack?.map((stack, i) => (

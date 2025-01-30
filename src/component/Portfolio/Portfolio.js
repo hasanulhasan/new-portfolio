@@ -3,7 +3,6 @@ import "./Portfolio.css"
 import Card from "./Card"
 import Portfolio_data from "./Portfolio_data"
 import RevealMotion from "../../utils/RevealMotion"
-import { Link } from "react-router-dom"
 
 const Portfolio = () => {
   return (
@@ -26,7 +25,7 @@ const Portfolio = () => {
             })}
           </div>
          <div style={{display: "flex", justifyContent: "center", width: "full"}}>
-         <Link to={'/projects'} className="button-gradient">Show more</Link>
+         <a target="_blank" rel="noreferrer" href={'/projects'} className="button-gradient">Show more</a>
          </div>
         </div>
       </section>

@@ -134,15 +134,15 @@ body.active-modal {
 }
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Default: 1 column */
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 16px;
   row-gap: 12px;
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) { /* Equivalent to Tailwind's md breakpoint */
+@media (min-width: 768px) { 
   .button-grid {
-    grid-template-columns: repeat(6, 1fr); /* 5 columns on medium+ screens */
+    grid-template-columns: repeat(9, 1fr);
   }
 }
 /*------------popup--------*/

@@ -17,33 +17,12 @@ const Header = () => {
           <a href="/" className='logo'>
             <img src={logo} alt='' />
           </a>
-
+          <h1 className="header-text highlight-text">All Projects</h1>
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
                 <a href='/'>home</a>
-              </li>
-              <li>
-                <a href='/'>portfolio</a>
-              </li>
-              <li>
-                <a href='/'>Skills</a>
-              </li>
-              <li>
-                <a href='/'>features</a>
-              </li>
-              <li>
-                <a href='/'>resume</a>
-              </li>
-              <li>
-                <a href='/'>review </a>
-              </li>
-              <li>
-                <a href='/'>certification</a>
-              </li>
-              <li>
-                <a href='/'>contact</a>
               </li>
               <li>
                 <a href="Md_Hasanul_Karim_Resume.pdf" download='Md_Hasanul_Karim_Resume.pdf'><button className='home-btn'>Get Resume</button></a>

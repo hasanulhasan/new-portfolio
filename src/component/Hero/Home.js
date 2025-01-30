@@ -27,7 +27,7 @@ const Home = () => {
               </span>
             </h2>
             <RevealMotion>
-            <p>I'm Hasanul Karim, a simple, cheerful man passionate about learning and developing skills through hands-on experience. I'm 1.5 years experienced in web development ecosystems. I can write clean code using HTML5, CSS, JavaScript, React JS, Next JS, Node JS   and other programming languages. I can work both independently and in groups. I'm looking for a position where I can perform my expertise in programming frameworks and development to use.</p>
+            <p>I'm Hasanul Karim, a simple, cheerful man passionate about learning and developing skills through hands-on experience. I'm 2.5 years experienced in web development ecosystems. I can write clean code using HTML5, CSS, JavaScript, React JS, Next JS, Node JS   and other programming languages. I can work both independently and in groups. I'm looking for a position where I can perform my expertise in programming frameworks and development to use.</p>
             </RevealMotion>
 
             <div className='hero_btn d_flex'>
